@@ -1,0 +1,30 @@
+body { 
+    background: black; 
+    color: white; 
+}
+#container{
+    position: relative;
+    text-align: center;
+    width:1024px;
+    margin:auto;
+}
+.overlay{
+    position:absolute;
+    z-index:2;
+    top:506px;
+    display:block;
+}
+.overylayImage{
+    height: auto;
+    width: 1024px;
+}
+.score{
+    position:absolute;
+    z-index:3;
+    top:530px;
+    width:100%;
+    color: black;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="js/shoot3d.js"></script>
+        <script src="js/three.min.js"></script>
+        <script src="js/GLTFLoader.js"></script>
+        <script src="js/OrbitControls.js"></script>
+        <title>Shoot 3D - Wireframe Magazine</title>
+    </head>
+    <body>
+        <div id="container">
+            <canvas id="gamearea"></canvas>
+            <div class="overlay"><img class="overylayImage" src="images/overlay1.png"></div>
+            <div id="score" class="score">SCORE<br>0</div>
+        </div>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                setup3D(1024,640);
+                animate();
+            });
+        </script>
+    </body>
+</html>
